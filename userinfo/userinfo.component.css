@@ -1,0 +1,23 @@
+.user-card {
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f8f9fa;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .user-card h2 {
+    color: #007bff;
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .user-card p {
+    font-size: 18px;
+    color: #333;
+    margin: 5px 0;
+  }
+  
