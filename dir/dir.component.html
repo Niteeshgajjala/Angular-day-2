@@ -1,0 +1,9 @@
+<button (click)="toggleVisibility()">Toggle Visibility</button>
+<p *ngIf="isVisible">This paragraph is conditionally visible.</p>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
+
+<button (click)="toggleHighlight()">Toggle Highlight</button>
+<p [ngClass]="{ 'highlight': isHighlighted }">This text changes color.</p>
